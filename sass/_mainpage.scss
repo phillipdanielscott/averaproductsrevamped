@@ -1,0 +1,38 @@
+body{
+  background: url(/images/averabg.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 110%;
+  width: auto;
+  margin-top: 7px
+  /* padding: 7px 14px; */
+}
+.navbar{
+  min-height: 70px;
+}
+
+#catalogNav{
+  padding: 0px;
+margin-top: 20px;
+margin-left: 30px;
+
+}
+#contactNav{
+  padding: 0px;
+margin-top: 20px;
+margin-left: 30px;
+}

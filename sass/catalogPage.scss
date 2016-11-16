@@ -1,0 +1,74 @@
+@mixin iphone {
+  @media only screen
+  and (min-device-width : 375px)
+ {
+    @content;
+  }
+}
+@mixin iphoneLandscape {
+  @media only screen
+  and (min-device-width : 667px)
+  {
+    @content;
+  }
+}
+@mixin desktopLg {
+  @media only screen
+  and (min-width : 1080px) {
+    @content;
+  }
+};
+
+
+
+// @mixin desktopMd {
+//   @media only screen
+//   and (min-device-width : 600px) {
+//     @content;
+//   }
+// }
+
+.fill{
+@include iphone      {
+background-size: 270px; }
+@include iphoneLandscape{
+  background-size: 375px;
+}
+@include desktopLg{
+  background-size: 650px;
+
+}
+
+
+}
+
+
+// .catalogContainer{
+//   @include iphone {
+//   }
+// }
+
+
+.catalogContainer{
+  background: url(/images/flowers.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+// .top-buffer{
+//   margin-top: 40px;
+// }
+.carousel-control.right{
+  right: 0;
+left: auto;
+/* background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
+/* background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
+/* background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5))); */
+/* background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
+// filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+background-repeat: repeat-x;
+}

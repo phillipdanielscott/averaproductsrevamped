@@ -1,0 +1,70 @@
+body {
+  background: url(/images/averabg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute; }
+
+.navbar-brand {
+  padding: 0px; }
+
+.navbar-brand > img {
+  height: 110%;
+  width: auto;
+  margin-top: 7px; }
+
+.navbar {
+  min-height: 70px; }
+
+#catalogNav {
+  padding: 0px;
+  margin-top: 20px;
+  margin-left: 30px; }
+
+#contactNav {
+  padding: 0px;
+  margin-top: 20px;
+  margin-left: 30px; }
+
+@media only screen and (min-device-width: 375px) {
+  .fill {
+    background-size: 270px; } }
+
+@media only screen and (min-device-width: 667px) {
+  .fill {
+    background-size: 375px; } }
+
+@media only screen and (min-width: 1080px) {
+  .fill {
+    background-size: 650px; } }
+
+.catalogContainer {
+  background: url(/images/flowers.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%; }
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  /* background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
+  /* background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
+  /* background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5))); */
+  /* background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
+  background-repeat: repeat-x; }
+
+.contactContainer {
+  background: url(/images/pottery.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
