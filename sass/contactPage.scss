@@ -1,3 +1,14 @@
+
+@mixin iphone {
+  @media only screen
+  and (min-device-width : 375px)
+ {
+    @content;
+  }
+}
+
+
+
 .contactContainer{
   background: url(/images/pottery.jpg) no-repeat center center fixed;
  -webkit-background-size: cover;
@@ -5,3 +16,32 @@
  -o-background-size: cover;
  background-size: cover;
 }
+#contactBox{
+  background-color: black;
+background-color:rgba(0, 0, 0, 0.5);
+  height: 350px;
+  // opacity: 0.5;
+  z-index: 0;
+}
+.top-buffer2{
+  margin-top: 200px;
+}
+h1{
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+  z-index: 1;
+  text-align: center;
+
+}
+h2{
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+  z-index: 1;
+  text-align: center;
+}
+// #contactBox{
+// @include iphone      {
+//   width: 400px;
+//   position: relative;
+//   right: -18% }
+// }

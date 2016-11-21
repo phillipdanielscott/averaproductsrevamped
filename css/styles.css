@@ -33,15 +33,15 @@ body {
 
 @media only screen and (min-device-width: 375px) {
   .fill {
-    background-size: 270px; } }
+    background-size: 70px; } }
 
 @media only screen and (min-device-width: 667px) {
   .fill {
-    background-size: 375px; } }
+    background-size: 275px; } }
 
 @media only screen and (min-width: 1080px) {
   .fill {
-    background-size: 650px; } }
+    background-size: 570px; } }
 
 .catalogContainer {
   background: url(/images/flowers.jpg) no-repeat center center fixed;
@@ -53,6 +53,9 @@ body {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   width: 100%; }
 
+.top-buffer {
+  margin-top: 40px; }
+
 .carousel-control.right {
   right: 0;
   left: auto;
@@ -62,9 +65,39 @@ body {
   /* background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
   background-repeat: repeat-x; }
 
+.top-buffer3 {
+  margin-top: 100px; }
+
+.carousel, .item, .active {
+  height: 100%; }
+
+.carousel-inner {
+  height: 110%; }
+
 .contactContainer {
   background: url(/images/pottery.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+#contactBox {
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 350px;
+  z-index: 0; }
+
+.top-buffer2 {
+  margin-top: 200px; }
+
+h1 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+  z-index: 1;
+  text-align: center; }
+
+h2 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+  z-index: 1;
+  text-align: center; }

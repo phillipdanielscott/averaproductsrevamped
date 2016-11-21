@@ -30,21 +30,19 @@
 
 .fill{
 @include iphone      {
-background-size: 270px; }
+background-size: 70px; }
 @include iphoneLandscape{
-  background-size: 375px;
+  background-size: 275px;
 }
 @include desktopLg{
-  background-size: 650px;
-
+  background-size: 570px;
 }
-
-
 }
 
 
 // .catalogContainer{
 //   @include iphone {
+//     height: 420px;
 //   }
 // }
 
@@ -59,9 +57,9 @@ background-size: 270px; }
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
 }
-// .top-buffer{
-//   margin-top: 40px;
-// }
+.top-buffer{
+  margin-top: 40px;
+}
 .carousel-control.right{
   right: 0;
 left: auto;
@@ -71,4 +69,17 @@ left: auto;
 /* background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%); */
 // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 background-repeat: repeat-x;
+}
+.top-buffer3{
+  margin-top: 100px;
+}
+
+// html,body{
+//    height:100%;
+// }
+.carousel,.item,.active{
+   height:100%;
+ }
+.carousel-inner{
+    height:110%;
 }
