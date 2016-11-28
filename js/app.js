@@ -5,7 +5,7 @@ $(function(){
     });
 });
 
-$('.carousel').carousel({
+$('#myCarousel').carousel({
     interval: false
 });
 
